@@ -2,12 +2,12 @@
 Summary:	Theme based on the fluxbox theme Cthulhain
 Name:		enlightenment-theme-%{_theme}
 Version:	0.3
-%define		_pre pre2
+%define		_pre pre3
 Release:	0.%{_pre}.1
 License:	GPL
 Group:		Themes
-Source0:	http://www.get-e.org/Themes/E17/_files/%{_theme}-%{version}%{_pre}.edj
-# Source0-md5:	1ab3c816e9d607118371bcb9d30e9433
+Source0:	http://e.oceighty.net/releases/%{_theme}-%{version}%{_pre}.edj
+# Source0-md5:	663ed0f7b98b27137f64b1ec23b10b55
 URL:		http://www.get-e.org/Themes/E17/
 Requires:	enlightenmentDR17
 BuildArch:	noarch
