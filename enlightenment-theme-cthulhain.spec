@@ -10,7 +10,7 @@ Group:		Themes
 Source0:	http://e.oceighty.net/releases/%{_theme}-%{version}%{_pre}.edj
 # Source0-md5:	663ed0f7b98b27137f64b1ec23b10b55
 URL:		http://www.get-e.org/Themes/E17/
-Requires:	enlightenmentDR17
+Requires:	enlightenment
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,13 +24,13 @@ Motyw oparty na motywie Cthulhain Fluxboksa.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/enlightenmentDR17/data/themes
+install -d $RPM_BUILD_ROOT%{_datadir}/enlightenment/data/themes
 
-install %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/enlightenmentDR17/data/themes/%{_theme}.edj
+install %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/enlightenment/data/themes/%{_theme}.edj
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/enlightenmentDR17/data/themes/%{_theme}.edj
+%{_datadir}/enlightenment/data/themes/%{_theme}.edj
