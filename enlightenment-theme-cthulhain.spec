@@ -1,6 +1,6 @@
 %define	_theme	cthulhain
 Summary:	Theme based on the Fluxbox theme Cthulhain
-Summary(pl.UTF-8):   Motyw oparty na motywie Cthulhain Fluxboksa
+Summary(pl.UTF-8):	Motyw oparty na motywie Cthulhain Fluxboksa
 Name:		enlightenment-theme-%{_theme}
 Version:	0.3
 %define		_pre pre3
